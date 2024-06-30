@@ -1,0 +1,73 @@
+nav{
+    background-color: palevioletred;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+.body{
+    background-image: url();
+}
+h4{
+    font-size: large;
+    font-style: oblique;
+    
+}
+.card-text{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.breakpoints{
+    $grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+}
+.mb-3{
+    background-color: blueviolet;
+}
+.row{
+    background-color: blueviolet;
+}
+.blog-cards .card-img-top{
+    height: 500px;
+
+}
+.content{
+    justify-content: center;
+    align-content: center;
+    background-color: blueviolet;
+    display: flex;
+}
+.accordion-body{
+    background-color: blueviolet;
+}
+.modal-body{
+    background-color: aquamarine;
+}
+.carousel-caption{
+    text-align: center;
+    align-content: center;
+}
+.col{
+    align-content: normal;
+}
+.carousel-caption{
+    background-color: blueviolet;
+    
+}

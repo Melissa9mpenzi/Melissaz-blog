@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melissa's about us blog page</title>
+  <link rel="stylesheet" href="assets/index.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+</head>
+
+<body id="body">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Melissa's Blog</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bloglist.html">Blog</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+  </nav><br><br><br>
+
+
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Introduction and background:
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" style="display: flex; flex-direction: row; margin: 20px;">
+        <div>
+          <img src="../melissaz_blog/images/Melissa Art.jpeg" width="300px" alt="mel">
+        </div>
+        <div class="accordion-body">
+          <strong>My name is Lokoroma Sharon Melissa Mpenzi. A student of software engineering. I was born and raised in
+            a family of four.</strong> I studied at Trinity Academy Bukoto for primary school, Gayaza High School for
+          O'level and Bishop Cipriano Kihangire for A'level.I hope to be a great web developer one day and change the
+          retrogressive mindset of women being unable to go far in the tech world.My role model is my mom and she
+          inspires me everyday to be not just an ordinary lady but a remarkable one.
+        
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Personal interests:
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="display: flex; flex-direction: row; margin: 20px;">
+        <div class="accordion-body">
+          <strong>I shockingly have a lot of hobbies that aren't tech related too.</strong> I'm not necessarily an
+          outgoing person but i happen to love extovert kind of activities. I love to dance, model, read novels and
+          travel. In the near future, I hope to work in tech as well as fulfill my dream of owning a fashion house.
+          
+        </div>
+        <div>
+          <img src="../melissaz_blog/images/lover.jpeg" width="300px" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Blog Mission:
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="display: flex; flex-direction: row; margin: 20px;">
+        <div>
+          <img src="../melissaz_blog/images/book.jpeg" width="300px" alt="">
+        </div>
+        <div class="accordion-body">
+          <strong>This being my first blog, I hope it's a good first trial and gets me well acquainted with blog
+            creation.</strong> Besides that, I hope I can modify it to become an actual blog that meets my interests in
+          writing.
+        
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutModal" style="margin-left: 600px;">
+   More about me
+  </button>
+
+
+  <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="aboutModalLabel">About Me</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Your about me content goes here -->
+          <p><em>Hello! I am Lokoroma Sharon Melissa Mpenzi.A beauty queen, model, dancer and fashion journalist. I'm
+              currently learning coding and hope to be great at it some day.</em></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <div>
+      &copy; Copyright <strong>Melissa's Blog</strong>. All Rights Reserved
+
+
+    </div>
+    <div>
+      Designed By <a href="https://github.com/Melissa9mpenzi">Melissa</a>
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+
+
+
+
+
+  <script src="assets/bootstrap/js/bootstrap.js"></script>
+</body>
+
+</html>
